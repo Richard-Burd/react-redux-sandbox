@@ -5,4 +5,4 @@ https://www.youtube.com/watch?v=9boMnm5X9ak
 https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
 
 ## Left off Lesson 26 with Vishwas
-https://www.youtube.com/watch?v=4ORZ1GmjaMc&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=26
+https://www.youtube.com/watch?v=7TaBhrnPH78&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=27
