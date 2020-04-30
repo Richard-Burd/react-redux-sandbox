@@ -1,8 +1,8 @@
 // Lesson 23 (https://www.youtube.com/watch?v=KDXZibVdiEI&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=23)
-import React, { Component } from 'react'  // made with the "rce" snippet
+import React, { Component } from 'react'  
 import LifecycleB from './LifecycleB';
 
-class LifecycleA extends Component {
+class LifecycleA extends Component {      // made with the "rce" snippet
   constructor(props) {                    // made with the "rconst" snippet
     super(props)
 

@@ -6,6 +6,7 @@
 import React, { /*Pure*/Component } from 'react'
 import RegComp from './RegComp'
 import PureComp from './PureComp'
+import MemoComp from './MemoComp'
 
 //              comment in the "Pure" and the component will not rerender every 4 seconds
 class ParentComp extends /*Pure*/Component { // created with the "rce" snippet
@@ -30,8 +31,9 @@ class ParentComp extends /*Pure*/Component { // created with the "rce" snippet
     return (
       <div>
         Parent Component
-        <RegComp name={this.state.name} />
-        <PureComp name={this.state.name} />
+        {/* <RegComp name={this.state.name} /> */}
+        {/* <PureComp name={this.state.name} /> */}
+        <MemoComp name={this.state.name}/>
       </div>
     )
   }
