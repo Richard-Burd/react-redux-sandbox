@@ -9,5 +9,5 @@ https://www.youtube.com/watch?v=B6aNv8nkUSw&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 
 ## Currently Building Out A React Router:
 https://www.youtube.com/watch?v=Law7wfdg_ls
-...left off at "16:48 / 33:09"
+...left off at "22:20 / 33:09"
 ...about to learn how to build out dynamic routes
