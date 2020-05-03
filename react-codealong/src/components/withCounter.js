@@ -1,5 +1,7 @@
 // Lesson 34 (https://www.youtube.com/watch?v=rsBQj6X7UK8&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=34)
 // This concearns Higher Order Components (HOC) - the naming convention is lowerCamelCase
+// This works with "ClickCounter.js" and "HoverCounter.js" - to get this to work,
+// just import those two components into App.js and they will pull in this file
 import React from 'react';
 
 // FORMATTING

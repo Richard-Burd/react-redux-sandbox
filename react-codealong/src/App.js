@@ -1,32 +1,34 @@
-import React from 'react';
-import './components_for_react_router_deved_tutorial/router.css';
-import Nav from './components_for_react_router_deved_tutorial/Nav';
-import About from './components_for_react_router_deved_tutorial/About';
-import Shop from './components_for_react_router_deved_tutorial/Shop';
-import ItemDetail from './components_for_react_router_deved_tutorial/ItemDetail';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// Lesson 37 (https://www.youtube.com/watch?v=EZil2OTyB4w&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=37)
+// This concearns Render Props which refers to a technique for sharing code between
+// React components using a prop whose value is a function.
 
-function App() {
-  return (
-    <Router>
+import React, { Component } from 'react';
+import './App.css';
+import ClickCounterTwo from './components/ClickCounterTwo'
+import HoverCounterTwo from './components/HoverCounterTwo'
+import User from './components/User'
+import CounterTwo from './components/CounterTwo'
+
+class App extends Component {
+  render() {
+    return (
       <div className="App">
-        <Nav />
-        <Switch>
-          {/* NOTE: there are two places to put "exact" and you only need one of them */}
-          <Route /*exact*/ path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/shop" exact component={Shop} />
-          <Route path="/shop/:id" component={ItemDetail}/>
-        </Switch>
+        <CounterTwo>
+          {(count, incrementCount) => (
+            <ClickCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        </CounterTwo>
+        <CounterTwo>
+          {(count, incrementCount) => (
+            <HoverCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        </CounterTwo>
+        {/* <ClickCounterTwo /> */}
+        {/* <HoverCounterTwo /> */}
+        {/* <User render={(isLoggedIn) => isLoggedIn ? "Vishwas" : "Guest"}/> */}
       </div>
-    </Router>
-  );
+    );
+  }
 }
-
-const Home = () => (
-  <div>
-    <h1>Home Page</h1>
-  </div>
-)
 
 export default App;
