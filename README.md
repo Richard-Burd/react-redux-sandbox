@@ -13,5 +13,12 @@ missing id's so it was unfinished.  The scaffolding is there and working though.
 ## Completed 43 of "ReactJS Tutorial" with Vishwas
 https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=43
 
+## Libraries Required for Final Project:
+./portfolio-project (master) $ rails new back-end-api --api
+./portfolio-project (master) $ npx create-react-app front-end
+./portfolio-project/front-end (master) $ npx install redux react-redux
+./portfolio-project/front-end (master) $ npm install react-router-dom
+./portfolio-project/front-end (master) $ npm install --save redux-thunk
+
 ## Now Beginning React-Redux Codealong Series with Vishwas
-https://www.youtube.com/watch?v=9boMnm5X9ak
+https://www.youtube.com/watch?v=9boMnm5X9ak&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK
