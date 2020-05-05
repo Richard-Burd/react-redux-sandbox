@@ -5,6 +5,7 @@ const redux = require('redux')
 const createStore = redux.createStore
 
 const BUY_CAKE = 'BUY_CAKE'
+const BUY_ICECREAM = 'BUY_ICECREAM'
 
 // an Action is an object w/ a type property
 // an Action Creator is a function that returns an action
@@ -16,10 +17,18 @@ function buyCake() {
   }
 }
 
+// This is the action creator to buy icecream
+function buyIcecream() {
+  return {
+    type: BUY_ICECREAM
+  }
+}
+
 // (previousState, action) => newState
 
 const initialState = { // previousState
-  numOfCakes: 10
+  numOfCakes: 10,
+  numOfIceCreams: 20
 }
 
 const reducer = (state = initialState, action) => {
@@ -33,6 +42,11 @@ const reducer = (state = initialState, action) => {
       // then make changes only to the properties that need changing
       numOfCakes: state.numOfCakes - 1
       // 6.) When it matches, it decrements the number of cakes above...
+    }
+
+    case BUY_ICECREAM: return {
+      ...state,
+      numOfIceCreams: state.numOfIceCreams - 1
     }
 
     // 7.) ...then the reducer returns the new state
@@ -52,6 +66,8 @@ const unsubscribe = store.subscribe(() => console.log('Updated state', store.get
 store.dispatch(buyCake())
 store.dispatch(buyCake())
 store.dispatch(buyCake())
+store.dispatch(buyIcecream())
+store.dispatch(buyIcecream())
 
 // 9.) Finally, we unsubscribe to any changes in the store
 unsubscribe()

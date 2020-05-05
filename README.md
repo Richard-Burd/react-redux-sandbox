@@ -20,5 +20,5 @@ https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 ./portfolio-project/front-end (master) $ npm install react-router-dom
 ./portfolio-project/front-end (master) $ npm install --save redux-thunk
 
-## Now Beginning React-Redux Codealong Series with Vishwas
+## React-Redux Codealong Series with Vishwas Readu for Lesson 10 - Combine Reducers
 https://www.youtube.com/watch?v=9boMnm5X9ak&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK
