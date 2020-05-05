@@ -4,12 +4,17 @@ const LIST = ["Bosnia", "Japan", "Tibet", "Malta", "Sardinia", "Socorta", "Abu M
 
 class Locations extends Component {
 
-  addLocation = () => {
+  addLocation = (mySpecialEvent) => {
     console.log("You'd like to add a new location")
+    console.log(`The event type is a: ${mySpecialEvent.type}`);
+    console.log(`Your mouse latitude is: ${mySpecialEvent.clientX}`);
+    console.log(`Your mouse longitude is: ${mySpecialEvent.clientY}`);
   }
 
   generateLocations = () => {
     return LIST.map(item => <li key={LIST.indexOf(item)}>{item}</li>)
+    // instead of using "indexOf" use the native index extration
+    // as used in DogTricks.js within this same directory
   }
 
   render() {

@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 ./portfolio-project/front-end (master) $ npm install --save redux-thunk
 ./portfolio-project/front-end (master) $ npm install redux-logger ????? Vishwas only
 ./portfolio-project/front-end (master) $ npm install axios redux-thunk
-./portfolio-project/front-end (master) $ npm
+
 
 ## Left off Review Here:
-https://learn.co/tracks/full-stack-web-development-v8/module-16-react/section-4-props-and-state/using-callbacks-to-pass-information-lab
+https://learn.co/tracks/full-stack-web-development-v8/module-16-react/section-5-events/updating-state
