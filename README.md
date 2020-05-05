@@ -1,7 +1,7 @@
 ## React-Redux
 https://www.youtube.com/watch?v=9boMnm5X9ak
 
-## React Only
+## React Only (Got to Lesson 19)
 https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
 
 ## Built Out A React Router:
@@ -23,5 +23,5 @@ https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 ./portfolio-project/front-end (master) $ npm install axios redux-thunk
 ./portfolio-project/front-end (master) $ npm
 
-## React-Redux Codealong Series with Vishwas Readu for Lesson 19
-https://www.youtube.com/watch?v=9boMnm5X9ak&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK
+## Left off Review Here:
+https://learn.co/tracks/full-stack-web-development-v8/module-16-react/section-4-props-and-state/using-callbacks-to-pass-information-lab
