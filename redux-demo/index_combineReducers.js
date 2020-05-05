@@ -2,7 +2,12 @@
 // to run this code, go to this directory in terminal & type in this command:
 // redburd@ubuntu ~/Desktop/dev/2/react-redux-sandbox/redux-demo (master) $ node index_combineReducers.js
 const redux = require('redux')
+const reduxLogger = require('redux-logger')
+
 const createStore = redux.createStore
+const combineReducers = redux.combineReducers
+const applyMiddleware = redux.applyMiddleware
+const logger = reduxLogger.createLogger()
 
 const BUY_CAKE = 'BUY_CAKE'
 const BUY_ICECREAM = 'BUY_ICECREAM'
@@ -51,11 +56,16 @@ const iceCreamReducer = (state = initialIceCreamState, action) => {
   }
 }
 
-const store = createStore(reducer)
+const rootReducer = combineReducers({
+  cake: cakeReducer,
+  iceCream: iceCreamReducer
+})
+
+const store = createStore(rootReducer, applyMiddleware(logger))
 
 console.log('Initial state', store.getState());
 
-const unsubscribe = store.subscribe(() => console.log('Updated state', store.getState()))
+const unsubscribe = store.subscribe(() => {})
 
 store.dispatch(buyCake())
 store.dispatch(buyCake())
