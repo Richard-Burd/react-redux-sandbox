@@ -24,4 +24,4 @@ https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 
 
 ## Left off Review Here:
-https://learn.co/tracks/full-stack-web-development-v8/module-16-react/section-5-events/updating-state
+https://learn.co/tracks/full-stack-web-development-v8/module-16-react/section-7-lifecycle-methods/component-mounting-and-unmounting-readme
