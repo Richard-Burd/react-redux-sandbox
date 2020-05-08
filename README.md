@@ -24,4 +24,4 @@ https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 
 
 ## Left off Review Here:
-https://learn.co/tracks/full-stack-web-development-v8/module-17-redux/section-1-building-redux/why-redux
+https://learn.co/tracks/full-stack-web-development-v8/module-17-redux/section-4-async-redux/redux-thunk
