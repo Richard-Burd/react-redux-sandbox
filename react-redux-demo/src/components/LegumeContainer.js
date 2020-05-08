@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux' // this is a higher order component
 import { addBean, subtractBean } from '../redux/bean/beanActions'
 import { addPea, subtractPea } from '../redux/pea/peaActions'
+import AddLegumeForm from './AddLegumeForm'
 
 function LegumeContainer (props) {
   return (
@@ -16,13 +17,16 @@ function LegumeContainer (props) {
         <button onClick={props.addPea}>Add Pea</button>
         <button onClick={props.subtractPea}>Subtract Pea</button>
       </div>
+      <div>
+        <AddLegumeForm />
+      </div>
     </div>
   )
 }
 
 const mapStateToProps = state => {
   return {
-    // numOfBeans: state..numOfBeans, <= This is no longer valid because now we have multiple reducers
+    // numOfBeans: state.numOfBeans, <= This is no longer valid because now we have multiple reducers
     numOfBeans: state.beanReducer.numOfBeans,
     numOfPeas: state.peaReducer.numOfPeas
   }
