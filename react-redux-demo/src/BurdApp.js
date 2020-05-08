@@ -1,6 +1,7 @@
 import React from 'react';
 import LegumeContainer from './components/LegumeContainer';
 import CakeContainer from './components/CakeContainer';
+import Astronauts from './components/Astronauts';
 import { Provider } from 'react-redux';
 import burdStore from './redux/burdStore';
 import store from './redux/store';
@@ -16,6 +17,9 @@ function BurdApp() {
     </Provider>
     <Provider store={store}>
       <div className="App">
+        <div style={{ color: '#3852B2'}}>
+          <Astronauts />
+        </div>
         <CakeContainer />
       </div>
     </Provider>

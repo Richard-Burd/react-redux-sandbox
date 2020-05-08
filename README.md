@@ -19,8 +19,9 @@ https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 ./portfolio-project/front-end (master) $ npx install redux react-redux
 ./portfolio-project/front-end (master) $ npm install react-router-dom
 ./portfolio-project/front-end (master) $ npm install --save redux-thunk
-./portfolio-project/front-end (master) $ npm install redux-logger ????? Vishwas only
-./portfolio-project/front-end (master) $ npm install axios redux-thunk
+./portfolio-project/front-end (master) $ npm install redux-logger ---- Vishwas method
+./portfolio-project/front-end (master) $ npm install axios redux-thunk ---- Vishwas method
+./portfolio-project/front-end (master) $ npm install --save redux-thunk
 
 
 ## Left off Review Here:
