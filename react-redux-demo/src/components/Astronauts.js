@@ -1,43 +1,33 @@
-// https://learn.co/tracks/full-stack-web-development-v8/module-17-redux/section-4-async-redux/redux-thunk
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { fetchAstronauts } from '../redux/astronauts/actions/fetchAstronauts'
 
+
 class Astronauts extends Component {
 
-  handleOnClick() {
-    this.props.fetchAstronauts()
-  }
-
-  showSomeConsoleLogs = () => {
-    //this.props.fetchAstronauts()
-    console.log("I'm gonna show props")
-    console.log(this.state);
+  componentDidMount() {
+    console.log("Astronauts component did mount");
     console.log(this.props);
+    fetchAstronauts();
+    console.log(this.props)
   }
 
   render() {
-    // const astronauts = this.props.astronauts.map(astro => <li key={astro.id}>{astro.name}</li>);
     return(
       <div>
-        {/* <button onClick={(event) = this.handleOnClick(event)} /> */}
-        {/* <button onClick={(event) => this.handleOnClick(event)} /> */}
-        {/* {astronauts} */}
-        <h2>Astronaughts {this.showSomeConsoleLogs()}</h2>
+        <span>Astronauts Should be here!</span>
       </div>
     );
   }
 };
 
-
 function mapDispatchToProps(dispatch){
   return { fetchAstronauts: () => dispatch(fetchAstronauts()) }
 }
 
+// you can't do this because there literally is no state right now.
 function mapStateToProps(state){
-  return {astronauts: state.astronautsReducer}
+  return {astronauts: state.astronauts}
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Astronauts)
-
-//export default Astronauts

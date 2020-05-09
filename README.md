@@ -26,3 +26,12 @@ https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 
 ## Left off Review Here:
 https://learn.co/tracks/full-stack-web-development-v8/module-17-redux/section-4-async-redux/redux-thunk
+
+trying to implement this here:
+https://learn.co/tracks/full-stack-web-development-v8/module-17-redux/section-4-async-redux/redux-thunk
+
+the code's problem could be anywhere between these files:
+
+react-redux-demo/src/components/Astronauts.js
+react-redux-demo/src/redux/astronauts/actions/fetchAstronauts.js
+react-redux-demo/src/redux/astronauts/reducers/astronautsReducer.js
