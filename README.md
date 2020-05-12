@@ -23,6 +23,10 @@ https://www.youtube.com/watch?v=j3j8St50fNY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rx
 ./portfolio-project/front-end (master) $ npm install redux-logger ---- Vishwas method
 ./portfolio-project/front-end (master) $ npm install axios redux-thunk ---- Vishwas method
 ./portfolio-project/front-end (master) $ npm i --save redux-logger ---- Some guy
+./portfolio-project/front-end (master) $ npm install --save redux-devtools-extension ----Vishwas method
+NOTE: this last one is very important and makes the store a lot cleaner because you don't need this big
+bag of verbage if you use it:
+"window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__"
 
 ## Left off Review Here:
 https://learn.co/tracks/full-stack-web-development-v8/module-17-redux/section-4-async-redux/redux-thunk
