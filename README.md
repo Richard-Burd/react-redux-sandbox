@@ -1,3 +1,18 @@
+Left off on this video here:
+https://www.youtube.com/watch?v=tQ80uAyqVyI&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK&index=28
+React Redux Tutorials - 28 - Async Actions
+
+looking at this project here:
+/home/redburd/Desktop/dev/2/react-redux-sandbox/React-Redux-Tutorials/react-redux-demo
+
+
+
+
+
+
+
+
+
 ## React-Redux
 https://www.youtube.com/watch?v=9boMnm5X9ak
 
