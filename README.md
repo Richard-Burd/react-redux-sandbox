@@ -43,6 +43,8 @@ NOTE: this last one is very important and makes the store a lot cleaner because 
 bag of verbage if you use it:
 "window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__"
 
+./portfolio-project/front-end (master) $ npm install fetch ?
+./portfolio-project/front-end (master) $ npm install node-fetch --save
 ## Left off Review Here:
 https://learn.co/tracks/full-stack-web-development-v8/module-17-redux/section-4-async-redux/redux-thunk
 
