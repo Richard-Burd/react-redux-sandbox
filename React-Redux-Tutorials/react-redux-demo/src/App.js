@@ -8,13 +8,13 @@ import IceCreamContainer from './components/IceCreamContainer'
 import NewCakeContainer from './components/NewCakeContainer'
 import ItemContainer from './components/ItemContainer'
 import UsersContainer from './components/UsersContainer'
-import AstronautsContainer from './components/AstronautsContainer'
+import TestComponent from './components/TestComponent'
 
 function App () {
   return (
     <Provider store={store}>
       <div className='App'>
-        <AstronautsContainer />
+        <TestComponent />
         <UsersContainer />
 
         <ItemContainer cake />

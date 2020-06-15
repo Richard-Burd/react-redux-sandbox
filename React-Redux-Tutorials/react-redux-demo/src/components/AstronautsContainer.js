@@ -2,21 +2,21 @@ import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
 import { fetchAstronauts } from '../redux'
 
-function AstronautsContainer ({ astronautData, fetchAstronauts }) {
+function TestComponent ({ testData, fetchAstronauts }) {
   useEffect(() => {
     fetchAstronauts()
   }, [])
-  return astronautData.loading ? (
+  return testData.loading ? (
     <h2>Loading</h2>
-  ) : astronautData.error ? (
-    <h2>{astronautData.error}</h2>
+  ) : testData.error ? (
+    <h2>{testData.error}</h2>
   ) : (
     <div>
       <h2>Astronauts List</h2>
       <div>
-        {astronautData &&
-          astronautData.astronauts &&
-          astronautData.astronauts.map((astronaut, index) => <p key={index}>{astronaut.name}</p>)}
+        {testData &&
+          testData.astronauts &&
+          testData.astronauts.map((astronaut, index) => <p key={index}>{astronaut.name}</p>)}
       </div>
     </div>
   )
@@ -24,7 +24,7 @@ function AstronautsContainer ({ astronautData, fetchAstronauts }) {
 
 const mapStateToProps = state => {
   return {
-    astronautData: state.astronaut
+    testData: state.astronaut
   }
 }
 
@@ -37,4 +37,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(AstronautsContainer)
+)(TestComponent)

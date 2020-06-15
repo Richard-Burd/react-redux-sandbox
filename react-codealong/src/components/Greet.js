@@ -14,12 +14,24 @@ const Greet = ({name, heroName}) => {
 */
 
 // we can also destructure in the function body
+// const Greet = (props) => {
+//   const {name, heroName} = props;
+// 
+//   return(
+//     <div>
+//      <h1>Hello {name} a.k.a. {heroName}</h1>
+//     </div>
+//   )
+// }
+
+// we can also render children if they exist
 const Greet = (props) => {
-  const {name, heroName} = props;
+  const {name, heroName, children} = props;
 
   return(
     <div>
      <h1>Hello {name} a.k.a. {heroName}</h1>
+     <h2>{children}</h2>
     </div>
   )
 }

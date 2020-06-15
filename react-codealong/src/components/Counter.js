@@ -10,9 +10,10 @@ class Counter extends Component {
   }
 
   // this.setState((previousStateGoesHere) => ({updatedStateGoesHere}))
+  // this.setState((previousStateGoesHere, props-go-here-&-they're-optional) => ({updatedStateGoesHere}))
   increment() {
     this.setState((myPreviousStateGoesHereAsAVariable) => ({
-      count: myPreviousStateGoesHereAsAVariable.count + 1
+      count: myPreviousStateGoesHereAsAVariable.count + 1 // or props.number...or s.thing like that
     }))
   }
 

@@ -7,17 +7,30 @@
 // 3.) consume the context value
 import React, { Component } from 'react';
 import './App.css';
-import ComponentC from './components/ComponentC';
-import { UserProvider } from './components/userContext';
+// import ComponentC from './components/ComponentC';
+// import { UserProvider } from './components/userContext';
+// import Greet from './components/Greet';
+
+// These two go together:
+import ScratchParentComponent from './components/ScratchParentComponent';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <ScratchParentComponent />
         {/* Here we are completing step 2 above - providing a context value */}
-        <UserProvider value={["Vishwas", "Teacher"]}>
-          <ComponentC />
-        </UserProvider>
+        {/* <UserProvider value={["Vishwas", "Teacher"]}> */}
+        {/*   <ComponentC /> */}
+        {/* </UserProvider> */}
+        {/* <Greet name="Bruce" heroName="Batman"> */}
+        {/*   <div>
+        {/*     <p>These are children of the Greet component</p> */}
+        {/*     <div> */}
+        {/*       <p>These are grand-children of the Greet component</p> */}
+        {/*     </div> */}
+        {/*   </div> */}
+        {/* </ Greet> */}
       </div>
     );
   }
