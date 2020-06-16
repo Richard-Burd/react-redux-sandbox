@@ -12,13 +12,13 @@ import './App.css';
 // import Greet from './components/Greet';
 
 // These two go together:
-import ScratchParentComponent from './components/ScratchParentComponent';
+import HookCounterOne from './components/HookCounterOne';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ScratchParentComponent />
+        <HookCounterOne />
         {/* Here we are completing step 2 above - providing a context value */}
         {/* <UserProvider value={["Vishwas", "Teacher"]}> */}
         {/*   <ComponentC /> */}
