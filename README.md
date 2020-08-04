@@ -1,4 +1,19 @@
+## React-Redux Sandbox
+This is a big sloppy workspace that I use to tinker around with stuff and get things to work properly before I use them in projects.  Most of the content will be nonsensical or seemingly useless, but if this came up in a search and you're interested in pairing a Rails API back-end with a React (or even React-Redux!) front-end, then go to this repo [here](https://github.com/Richard-Burd/react-redux-portfolio-project) and read this [here](https://richard-burd.github.io/react_setup_with_rails_api_server)...but please don't clone this repo and start trying to work with it, it's a (very disorganized) sandbox.
+
+
+Left off on this video here:
+https://www.youtube.com/watch?v=tQ80uAyqVyI&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK&index=28
+React Redux Tutorials - 28 - Async Actions
+
+looking at this project here:
+/home/redburd/Desktop/dev/2/react-redux-sandbox/React-Redux-Tutorials/react-redux-demo
+
+
 ## Instructions for Setting up Backend API for Final Portfolio Project
+
+NOTE: This repo doesn't have a back-end Rails API; if you're looking for a repo with one of those then check out this one [here](https://github.com/Richard-Burd/react-redux-portfolio-project). and some notes on how to set one up [here](https://richard-burd.github.io/react_setup_with_rails_api_server). What follows are just some notes-to-self:
+
 Instructions are here:
 https://www.newline.co/fullstack-react/articles/how-to-get-create-react-app-to-work-with-your-rails-api/
 
@@ -43,20 +58,6 @@ The instructions start at the "Here we go" title
     ./portfolio-project/server (master) $ rake start
     NOTE: the file is here:
     https://github.com/fullstackreact/food-lookup-demo-rails/blob/master/lib/tasks/start.rake
-
-
-## React-Redux Sandbox
-This is a big sloppy workspace that I use to tinker around with stuff and get things to work properly before I use them in projects.  Most of the content will be nonsensical or seemingly useless.  Sorry about that.
-
-
-Left off on this video here:
-https://www.youtube.com/watch?v=tQ80uAyqVyI&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK&index=28
-React Redux Tutorials - 28 - Async Actions
-
-looking at this project here:
-/home/redburd/Desktop/dev/2/react-redux-sandbox/React-Redux-Tutorials/react-redux-demo
-
-
 
 
 
