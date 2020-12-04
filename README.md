@@ -1,5 +1,9 @@
 ## React-Redux Sandbox
-This is a big sloppy workspace that I use to tinker around with stuff and get things to work properly before I use them in projects.  Most of the content will be nonsensical or seemingly useless, but if this came up in a search and you're interested in pairing a Rails API back-end with a React (or even React-Redux!) front-end, then go to this repo [here](https://github.com/Richard-Burd/react-redux-portfolio-project) and read this [here](https://richard-burd.github.io/react_setup_with_rails_api_server)...but please don't clone this repo and start trying to work with it, it's a (very disorganized) sandbox.
+Welcome to my React-Redux Sandbox, this is workspace that I use to tinker around with React (often paired with Redux) to get various features working properly before I use them in projects.&nbsp;  I'm currently using this repo to develop a series of cheat-sheets for React similar to [my other cheat sheets](https://richard-burd.github.io/portfolio/software#cheat-sheets-for-languages--frameworks).&nbsp;  So far I've got one going for the `useState` and `useEffect` React hooks:
+
+![react hooks useState & useEffect](https://i.imgur.com/0EcqUq1.jpg)
+
+If this Repo came up in a search and you're interested in pairing a Rails API back-end with a React front-end, you can go to my repo [here](https://github.com/Richard-Burd/react-redux-portfolio-project) and read this [here](https://richard-burd.github.io/react_setup_with_rails_api_server) but please don't clone this repo (like the last person) and then ask me for help getting it to work because this isn't an ideal solution as the repo actually contains several nested react applications within it, not just one.
 
 
 Left off on this video here:
